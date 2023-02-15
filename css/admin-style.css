@@ -1,0 +1,59 @@
+.full-width{
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+ul.misha_gallery_mtb.ui-sortable {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li.ui-sortable-handle span {
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-size: cover;
+}
+
+a.misha_gallery_remove {
+    background: #de4e4e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    width: 25px !important;
+    height: 25px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.misha_gallery_mtb.ui-sortable li {
+    margin: 0.5rem;
+    border: 1px solid #888;
+    box-shadow: 0 0 8px 3px #dddddda3;
+}
+
+.col-md-6 {
+    padding: 1rem 0.5rem;
+    width: 45%;
+    float: left;
+}
+
+h3.section {
+    background: #048;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .col-md-6 {
+        padding: 1rem 0.5rem;
+        width: 100%;
+    }
+}
